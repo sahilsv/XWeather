@@ -50,7 +50,7 @@ const WeatherDisplay = ({ city }) => {
       );
       setWeatherData(res.data);
     } catch (err) {
-      console.error("Error fetching data", err);
+      console.error("Error fetching data", err.message);
       alert("Failed to fetch weather data");
     } finally {
       setLoading(false);
