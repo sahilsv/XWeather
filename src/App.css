@@ -1,6 +1,6 @@
 .App {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f8f0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,11 +8,10 @@
   justify-content: center;
   color: #333;
 }
-
 .search-bar {
   margin: 20px;
+  background-color: #fff;
 }
-
 .search-bar input {
   padding: 10px;
   font-size: 16px;
@@ -20,43 +19,35 @@
   border-radius: 4px;
   margin-right: 10px;
 }
-
 .search-bar button {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
   border-radius: 4px;
   background-color: #4caf50;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
-
-.weather-display {
+.weather-cards {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
-
 .weather-card {
-  background-color: white;
-  border-radius: 5px;
-  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
   width: 200px;
   text-align: center;
-  box-shadow: 0px 1px 1px rgba(0, 0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0 0.1);
+  margin: 10px;
 }
-
 .weather-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
 }
-
 .weather-card p {
-  font-size: 10px;
+  font-size: 13px;
   margin: 0;
-}
-
-.weather-cards{
-  display: flex;
-  gap: 1rem;
 }
