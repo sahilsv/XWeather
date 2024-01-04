@@ -1,12 +1,11 @@
-
-.app {
+.App {
   font-family: Arial, sans-serif;
   background-color: #f0f8ff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   color: #333;
 }
 
